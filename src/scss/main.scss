@@ -1,0 +1,484 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.header{
+    font-family: 'Montserrat', sans-serif;
+    height: 800px;
+    background-color: rgb(239,240,242);
+    padding: 100px 50px 100px;
+    text-align: center;
+}
+.header__logo{
+    font-weight: 900;
+    font-size: 20px;
+    padding: 6px;
+    height: 20px;
+    width: 95px;
+    border: 5px solid rgb(23,15,28);
+}
+.header__logo__lit{
+    color: rgb(119,239,229);
+}
+.header__lin{
+    float: right;
+    height: 23px;
+    width: 35px;
+    margin-top: -30px;
+}
+.header__title{
+    font-weight: 700;
+    margin-top: 200px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(80,80,80);
+}
+.header__title__bc-blue{
+    background-color: rgb(166,226,222);
+}
+.header__contact-us{
+    font-weight: 400;
+    color: rgb(96,96,97);
+    margin-top: 150px;
+    border: 2px solid rgb(119,120,121);
+    width: 228px;
+    height: 50px;
+    background-color: rgb(239,240,242);
+    font-size: 20px;
+}
+.header__pic{
+    display: block;
+    margin-left: 1000px;
+}
+.about-us{
+    height: 700px;
+    background-color: rgb(248,250,250);
+    padding: 100px 130px 100px;
+    text-align: center;
+}
+.about-us__title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.about-us__subtitle{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    color: rgb(119,120,121);
+    font-size: 18px;
+    margin-top: -20px;
+}
+.about-us__mac{
+    margin-top: 100px;
+    float: left;
+}
+.about-us__float-text{
+    margin-top: 90px;
+    float: left;
+    text-align: left;
+    margin-left: 130px;
+}
+.about-us__float-text__title{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(100,100,100);
+}
+.about-us__float-text__text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: rgb(102,103,103);
+}
+.feature{
+    height: 1050px;
+    text-align: center;
+    padding-top: 130px;
+}
+.feature__title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.feature__subtitle{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    color: rgb(119,120,121);
+    font-size: 18px;
+    margin-top: -20px;
+}
+.feature__pictures{
+    padding-top: 120px;
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 13px;
+    grid-row-gap: 13px;
+}
+.services{
+    padding-top: 100px;
+    height: 1620px;
+    background-color: rgb(248,250,250);
+    text-align: center;
+}
+.services__title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.services__subtitle{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    color: rgb(119,120,121);
+    font-size: 18px;
+    margin-top: -20px;
+}
+.services__pictures{
+    color: white;
+    padding-top: 120px;
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 415px 370px 370px;
+    grid-column-gap: 13px;
+    grid-row-gap: 13px;
+}
+.services__pictures__box{
+    background-color: rgb(113,245,234);
+    grid-column-start: 1;
+    grid-column-end: 8;
+    text-align: left;
+    padding-left: 55px;
+    padding-top: 65px;
+}
+.services__pictures__box__title{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(29,75,71);
+}
+.services__pictures__box__text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: rgb(53,123,118);
+    margin-bottom: 60px;
+}
+
+.services__pictures__block1{
+    grid-column-start: 8;
+    grid-column-end: 13;
+    position: relative;
+}
+.services__pictures__block1__ph1{
+    width: 100%;
+    height: 100%;
+}
+.services__pictures__block1__title{
+    font-family: 'Merriweather', serif;
+    font-weight: 700; 
+    font-size: 20px;
+    position: absolute;
+    top: 150px;
+    left: 65px;
+}
+.services__pictures__block1__text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    position: absolute;
+    top: 150px;
+    left: 65px;
+    margin-top: 60px;
+    text-align: left;
+    color: rgb(201,201,201);
+}
+.services__pictures__block1__know-more{
+    position: absolute;
+    top: 323px;
+    left: 65px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color:rgb(201,201,201);
+}
+.services__pictures__block2{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    position: relative;
+}
+.services__pictures__block2__ph2{
+    width: 100%;
+    height: 100%;
+}
+.services__pictures__block2__title{
+    font-family: 'Merriweather', serif;
+    font-weight: 700; 
+    font-size: 20px;
+    position: absolute;
+    top: 135px;
+    left: 65px;
+}
+.services__pictures__block2__text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    position: absolute;
+    top: 135px;
+    left: 65px;
+    margin-top: 60px;
+    text-align: left;
+    color: rgb(201,201,201);
+}
+.services__pictures__block2__know-more{
+    position: absolute;
+    top: 280px;
+    left: 65px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color:rgb(201,201,201);
+}
+.services__pictures__block3{
+    grid-column-start: 8;
+    grid-column-end: 13;
+    position: relative;
+}
+.services__pictures__block3__ph3{
+    width: 100%;
+    height: 100%;
+}
+.services__pictures__block4{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    position: relative;
+}
+.services__pictures__block4__ph4{
+    width: 100%;
+    height: 100%;
+}
+.services__pictures__block4__title{
+    font-family: 'Merriweather', serif;
+    font-weight: 700; 
+    font-size: 20px;
+    position: absolute;
+    top: 105px;
+    left: 65px;
+}
+.services__pictures__block4__text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    position: absolute;
+    top: 105px;
+    left: 65px;
+    margin-top: 60px;
+    text-align: left;
+    color: rgb(201,201,201);
+}
+.services__pictures__block4__know-more{
+    position: absolute;
+    top: 275px;
+    left: 65px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color:rgb(201,201,201);
+}
+.services__pictures__block5{
+    grid-column-start: 6;
+    grid-column-end: 13;
+    position: relative;
+}
+.services__pictures__block5__ph5{
+    width: 100%;
+    height: 100%;
+}
+.team{
+    height: 1250px;
+    padding-top: 122px;
+    text-align: center;
+}
+.team__pictures{
+    padding-top: 120px;
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 13px;
+    grid-row-gap: 13px;
+}
+.team__pictures__p2{
+    position: relative;
+    color: rgb(44,58,57);
+    text-align: left;
+}
+.team__pictures__p2__title{
+    position: absolute;
+    top: 200px;
+    left: 55px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.team__pictures__p2__title__span{
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(117,149,146);
+}
+.team__pictures__p2__text{
+    position: absolute;
+    left: 55px;
+    top: 250px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(34,84,80);
+}
+.report{
+    height: 820px;
+    padding: 122px;
+    text-align: center;
+    background-color: rgb(248,250,250);
+}
+.report__float{
+    padding-top: 140px;
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.report__float__pic{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.report__float__say{
+    margin-top: 24px;
+    width: 668px;
+    height: 362px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    background-color: rgb(234,235,237);
+    position: relative;
+}
+.report__float__say__title{
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.report__float__say__title__span{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(127,127,127);
+    font-size: 15px;
+}
+.report__float__say__text{
+    position: absolute;
+    left: 110px;
+    top: 135px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(34,84,80);
+}
+.report__float__say__stars{
+    position: absolute;
+    left: 280px;
+    top: 280px;
+}
+.report__float__say__arrow{
+    position: absolute;
+    top: 460px;
+    left: 518px;
+}
+.report__float__say__arrow__left{
+    display: block;
+    height: 55px;
+    width: 60px;
+    float: left;
+}
+.report__float__say__arrow__right{
+    display: block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-left: 30px;
+}
+.logs{
+    margin: -8px;
+    height: 360px;
+    text-align: center;
+    padding-top: 100px;
+}
+.contact{
+    height: 600px;
+    background-image: url(../img/bc.png);
+    padding-top: 130px;
+    display: grid;
+    grid-template-columns: 610px 495px;
+    grid-template-rows: 460px 460px;
+    grid-column-gap: 35px;
+    justify-content: center;
+}
+.contact__form{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background-color: rgb(74,88,98);
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: rgb(168,174,178);
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.hr{
+    background-color: rgb(101,117,127);
+    height: 1px;
+    width: 550px;
+    margin-bottom: 25px;
+}
+.contact__form__button{
+    background-color: rgb(110,238,228);
+    border: none;
+    border-radius: 2%;
+    height: 52px;
+    width: 247px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: rgb(46,107,102);
+    font-weight: 700;
+}
+.contact__form__img{
+    display: block;
+    height: 190px;
+    width: 450px;
+}
+.footer{
+    height: 310px;
+    background-color: rgb(38,43,46);
+    text-align: center;
+    padding-top: 90px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(214,215,215);
+}
+.footer__rights{
+    font-weight: 500;
+    color: rgb(126,128,129);
+    padding-top: 30px;
+}
